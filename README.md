@@ -73,7 +73,7 @@ site/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nextjs-shopify.git
+   git clone https://github.com/formixcode/nextjs-shopify.git
    cd nextjs-shopify
    ```
 
@@ -193,3 +193,11 @@ JSON-LD structured data is implemented for better search engine understanding of
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](license.md) file for details.
+
+## 🙏 Acknowledgements
+
+This project was originally based on the [Vercel Commerce](https://github.com/vercel/commerce) framework. We thank Vercel for their contributions to the e-commerce ecosystem and the open-source community.
+
+## 📧 Contact
+
+For questions or support, please contact: contact@formixcode.com

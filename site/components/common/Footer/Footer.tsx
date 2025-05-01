@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import type { Page } from '@commerce/types/page'
 import getSlug from '@lib/get-slug'
-import { Github, Vercel } from '@components/icons'
+import { Github, FormixCode } from '@components/icons'
 import { Logo, Container } from '@components/ui'
 import { I18nWidget } from '@components/common'
 import ThemeSwitcher from '@components/ui/ThemeSwitcher'
@@ -63,7 +63,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
               <a
                 className={s.link}
                 aria-label="Github Repository"
-                href="https://github.com/vercel/commerce"
+                href="https://github.com/formixcode"
               >
                 <Github />
               </a>
@@ -78,14 +78,14 @@ const Footer: FC<Props> = ({ className, pages }) => {
             <span className="text-primary">Created by</span>
             <a
               rel="noopener noreferrer"
-              href="https://vercel.com"
-              aria-label="Vercel.com Link"
+              href="https://github.com/formixcode"
+              aria-label="FormixCode Link"
               target="_blank"
               className="text-primary"
             >
-              <Vercel
+              <FormixCode
                 className="inline-block h-6 ml-3 text-primary"
-                alt="Vercel.com Logo"
+                alt="FormixCode Logo"
               />
             </a>
           </div>
