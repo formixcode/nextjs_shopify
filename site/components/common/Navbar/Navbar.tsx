@@ -20,7 +20,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
       <div className={s.nav}>
         <div className="flex items-center flex-1">
           <Link href="/" className={s.logo} aria-label="Logo">
-            {/* <Logo /> */}
+            <img src="/formixcode-logo.webp" alt="FormixCode Logo" style={{ width: '66px', height: 'auto' }} />
           </Link>
           <nav className={s.navMenu}>
             <Link href="/search" className={s.link}>
